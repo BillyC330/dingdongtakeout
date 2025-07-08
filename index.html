@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DingDong Takeout - Your Smart Online Ordering Partner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">DingDong Takeout</a>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- You can add a login button later if you want -->
+                <!-- <li><a href="#" class="nav-button">Restaurant Login</a></li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <h1>Your Smart Online Ordering Partner for Restaurants</h1>
+            <p class="subtitle">Effortlessly manage your online menu, streamline orders, and grow your business with DingDong Takeout.</p>
+            <a href="#contact" class="cta-button">Learn More & Get Early Access</a>
+        </div>
+    </header>
+
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2>Why Choose DingDong Takeout?</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <i class="fas fa-utensils feature-icon"></i>
+                    <h3>Flexible Menu Management</h3>
+                    <p>Update dishes, prices, images, and categories anytime, anywhere. Simple and intuitive.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-receipt feature-icon"></i>
+                    <h3>Efficient Order Processing</h3>
+                    <p>Receive instant order notifications and manage them seamlessly to reduce prep time and errors.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-chart-line feature-icon"></i>
+                    <h3>Boost Your Online Presence</h3>
+                    <p>Easily share your ordering link on Google Business, social media, and more to attract new customers.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-cogs feature-icon"></i>
+                    <h3>Powerful Dashboard</h3>
+                    <p>Access insightful data and analytics to understand your business and make smarter decisions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works-section">
+        <div class="container">
+            <h2>Start Your Online Ordering in 3 Simple Steps</h2>
+            <div class="steps-grid">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <h3>Sign Up & Set Up</h3>
+                    <p>Create your DingDong Takeout account in minutes and easily upload your restaurant's menu.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <h3>Share Your Link</h3>
+                    <p>Get your unique online ordering link to place on your website, social media, and Google profile.</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <h3>Receive Orders</h3>
+                    <p>Customers order directly through your link, and you receive instant notifications to prepare the meal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="cta-section">
+        <div class="container">
+            <h2>Ready to Elevate Your Restaurant Business?</h2>
+            <p>DingDong Takeout is launching soon! For updates and early-bird offers, please send us an email at:</p>
+            
+            <!-- This is the updated part -->
+            <a href="mailto:info@dingdongtakeout.com" class="email-link">info@dingdongtakeout.com</a>
+            
+            <p class="privacy-note">We look forward to connecting with you!</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="year"></span> DingDong Takeout. All Rights Reserved.</p>
+            <p>
+                <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
